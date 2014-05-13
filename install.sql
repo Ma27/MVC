@@ -1,0 +1,6 @@
+CREATE TABLE `entries` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`created` DATETIME NOT NULL ,
+`title` VARCHAR( 254 ) NOT NULL ,
+`content` TEXT NOT NULL
+) ENGINE = InnoDB;

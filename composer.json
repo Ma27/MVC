@@ -1,0 +1,10 @@
+{
+    "autoload" : {
+        "psr-0" : {
+            "Controller_" : "src/Controller",
+            "Model_" : "src/Model",
+            "View_" : "src/View",
+            "" : "src/"
+        }
+    }
+}
