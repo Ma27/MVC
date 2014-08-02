@@ -15,7 +15,7 @@ class Response {
 
     public function sendHeaders() {
         foreach ($this->headers as $key => $value) {
-            $headerString = sprintf('$s:%s', $key, $value);
+            $headerString = sprintf('%s:%s', $key, $value);
             header($headerString);
         }
     }
